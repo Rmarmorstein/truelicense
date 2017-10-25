@@ -88,7 +88,6 @@ public abstract class GenerateSourcesMojo extends MojoAdapter {
 
     private VelocityEngine engine0() {
         final VelocityEngine e = new VelocityEngine();
-        e.setProperty(RuntimeConstants.RUNTIME_LOG_LOGSYSTEM, new LogChuteAdapter(getLog()));
         e.setProperty(RuntimeConstants.FILE_RESOURCE_LOADER_PATH, baseDirectory().getPath());
         e.init();
         return e;

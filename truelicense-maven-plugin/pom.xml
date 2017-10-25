@@ -60,11 +60,11 @@
         </dependency>
         <dependency>
             <groupId>org.apache.velocity</groupId>
-            <artifactId>velocity</artifactId>
+            <artifactId>velocity-engine-core</artifactId>
         </dependency>
         <dependency>
             <groupId>org.apache.velocity</groupId>
-            <artifactId>velocity-tools</artifactId>
+            <artifactId>velocity-tools-generic</artifactId>
         </dependency>
     </dependencies>
 
